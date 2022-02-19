@@ -1,0 +1,91 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300&family=Roboto+Mono&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.pallab_img {
+	border-radius: 50%;
+	height: 300px;
+	height: 300px;
+	overflow: hidden;
+	border: 9px solid rgba(0, 0, 0, 0.05);
+}
+.header {
+	text-align: center;
+	background-image: url('images/exp.jpg');
+	backdrop-filter: grayscale(30%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px;
+	z-index: -1;
+	opacity: 0.8;
+	height: 500px;
+}
+.name {
+	font-size: 2rem;
+}
+.navbar {
+	padding: 5px;
+	font-weight: 500;
+}
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+.nav-link {
+	text-decoration: none;
+	color: black;
+}
+.container {
+	text-align: center;
+}
+.Education,
+.languages {
+	background-color: #d1d1d1;
+}
+.Education,
+.about,
+.Skills,
+.languages {
+	padding: 30px;
+}
+.footer {
+	padding: 50px;
+	text-align: center;
+}
+.about {
+	width: 70%;
+	margin: auto;
+	line-height: 1.9;
+	letter-spacing: 0.4px;
+}
+.footer_icons {
+	color: black;
+	font-size: 1.5rem;
+	padding: 20px;
+}
+.social {
+	margin-right: 20px;
+	color: grey;
+}
+@media screen and (min-width: 320px) and (max-width: 426px) {
+	.pallab_img {
+		width: 100px;
+		height: 100px;
+	}
+	.header {
+		height: 300px;
+	}
+	.name {
+		font-size: 1.2rem;
+	}
+	.container {
+		text-align: left;
+	}
+	.about {
+		margin: 0;
+	}
+}
